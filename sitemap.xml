@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>http://jonracic.github.io/offline-plugin-app-shell-fallback/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://jonracic.github.io/lesson-four</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://jonracic.github.io/environment-setup</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://jonracic.github.io/lesson-three</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://jonracic.github.io/lesson-six</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://jonracic.github.io/lesson-five</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://jonracic.github.io/post-one</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://jonracic.github.io/lesson-two</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://jonracic.github.io/categories/tech/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://jonracic.github.io/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://jonracic.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://activeworkspaceextensions.github.io/environment-setup</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://activeworkspaceextensions.github.io/post-one</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://activeworkspaceextensions.github.io/location-example</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://activeworkspaceextensions.github.io/express-setup</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://activeworkspaceextensions.github.io/lesson-five</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://activeworkspaceextensions.github.io/lesson-four</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://activeworkspaceextensions.github.io/lesson-six</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://activeworkspaceextensions.github.io/lesson-three</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://activeworkspaceextensions.github.io/lesson-two</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://activeworkspaceextensions.github.io/my-first-active-workspace-extension</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://activeworkspaceextensions.github.io/categories/tech/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://activeworkspaceextensions.github.io/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://activeworkspaceextensions.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
