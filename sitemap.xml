@@ -4,7 +4,7 @@
     
     <url>
      <loc>https://activeworkspaceextensions.github.io//</loc>
-     <lastmod>2018-06-03</lastmod>
+     <lastmod>2018-06-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,8 +12,14 @@
     
         
     <url>
-     <loc>https://activeworkspaceextensions.github.io//about/</loc>
-     <lastmod>2018-06-03</lastmod>
+     <loc>https://activeworkspaceextensions.github.io//Environment-Setup/</loc>
+     <lastmod>2018-06-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://activeworkspaceextensions.github.io//My-First-Extension/</loc>
+     <lastmod>2018-06-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -22,8 +28,40 @@
     
         
     <url>
-     <loc>https://activeworkspaceextensions.github.io//about/</loc>
-     <lastmod>2018-06-03</lastmod>
+     <loc>https://activeworkspaceextensions.github.io//Location-Example/</loc>
+     <lastmod>2018-06-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://activeworkspaceextensions.github.io//InboxLinkcmdGlobal/</loc>
+     <lastmod>2018-06-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://activeworkspaceextensions.github.io//HomeFolderLinkcmdGlobal/</loc>
+     <lastmod>2018-06-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://activeworkspaceextensions.github.io//QuickLinksCmdPanel/</loc>
+     <lastmod>2018-06-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://activeworkspaceextensions.github.io//What-is-Declarative/</loc>
+     <lastmod>2018-06-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
