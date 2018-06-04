@@ -1,0 +1,17 @@
+/*  Header Color Override */
+.md-header {
+    background-color: #2387aa !important;
+}
+
+.md-tabs {
+    background-color: #185E76 !important;
+}
+
+/* Bold h2 titles in the TOC */
+li.toctree-l2 > a:link,
+li.toctree-l2 > a:visited {
+  font-weight: bold;
+  color: #404040;
+  margin-left: -6px;
+}
+

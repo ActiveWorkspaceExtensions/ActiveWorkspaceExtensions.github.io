@@ -3,18 +3,30 @@
 
     
     <url>
-     <loc>/</loc>
+     <loc>https://activeworkspaceextensions.github.io//</loc>
      <lastmod>2018-06-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
+        
     <url>
-     <loc>/about/</loc>
+     <loc>https://activeworkspaceextensions.github.io//about/</loc>
      <lastmod>2018-06-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://activeworkspaceextensions.github.io//about/</loc>
+     <lastmod>2018-06-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
 </urlset>
