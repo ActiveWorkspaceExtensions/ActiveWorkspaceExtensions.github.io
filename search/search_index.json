@@ -16,107 +16,107 @@
             "title": "Reach New Efficiency Levels"
         }, 
         {
-            "location": "/Environment-Setup/", 
+            "location": "/Environment-Setup/Environment-Setup/", 
             "text": "Environment Setup\n\n\nVisual Studio Code\n\n\nTo Start out, we need a place to write code and use the command line. Don't worry. Visual Studio Code will make this much easier. Download \nVisual Studio Code\n. \n\n\n\n\nNode.js\n\n\nNode.js\n is a platform for building fast and scalable server applications using JavaScript. Node.js is the runtime and \nNPM\n is the Package Manager for Node.js modules.\n\n\nVisual Studio Code has support for the JavaScript and TypeScript languages out-of-the-box as well as Node.js debugging. However, to run a Node.js application, you will need to install the Node.js runtime on your machine.\n\n\nTo get started in this walkthrough, \ninstall Node.js for your platform\n. The Node Package Manager is included in the Node.js distribution. You'll need to open a new terminal (command prompt) for the \nnode\n and \nnpm\n command line tools to be on your PATH.\n\n\n\n\nLinux\n: There are specific Node.js packages available for the various flavors of Linux. See \nInstalling Node.js via package manager\n to find the Node.js package and installation instructions tailored to your version of Linux.\n\n\nTip:\n To test that you've got Node.js correctly installed on your computer, open a new terminal and type \nnode --help\n and you should see the usage documentation.\n\n\n\n\nNode.js Hello World\n\n\nEvery good tutorial starts off with a \"Hello World\" Example. Let's get started by creating the simplest Node.js application to get our feet wet with Visual Studio Code.\n\n\nCreate an empty folder called \"hello\", navigate into and open VS Code:\n\n\n1\n2\n3\nmkdir hello\n\ncd\n hello\ncode .\n\n\n\n\n\n\n\n\nTip:\n You can open files or folders directly from the command line.  The period '.' refers to the current folder, therefore VS Code will start and open the \nHello\n folder.\n\n\n\n\nFrom the File Explorer tool bar, press the New File button:\n\n\n\n\nand name the file \napp.js\n:\n\n\n\n\nBy using the \n.js\n file extension, VS Code interprets this file as JavaScript and will evaluate the contents with the JavaScript language service.\n\n\nCreate a simple string variable in \napp.js\n and send the contents of the string to the console:\n\n\n1\n2\nvar\n \nmsg\n \n=\n \nHello World\n;\n\n\nconsole\n.\nlog\n(\nmsg\n);\n\n\n\n\n\n\n\nNote that when you typed \nconsole.\n IntelliSense on the \nconsole\n object was automatically presented to you.\n\n\n\n\nAlso notice that VS Code knows that \nmsg\n is a string based on the initialization to \n'Hello World'\n.  If you type \nmsg.\n you'll see IntelliSense showing all of the string functions available on \nmsg\n.\n\n\n\n\nAfter experimenting with IntelliSense, revert any extra changes from the source code example above and save the file (\nkb(workbench.action.files.save)\n).\n\n\nRunning Hello World\n\n\nIt's simple to run \napp.js\n with Node.js. From a terminal, just type:\n\n\n1\nnode app.js\n\n\n\n\n\n\nYou should see \"Hello World\" output to the terminal and then Node.js returns.\n\n\nIntegrated Terminal\n\n\nVS Code has an \nintegrated terminal\n which you can use to run shell commands. You can run Node.js directly from there and avoid switching out of VS Code while running command line tools.\n\n\nView\n \n \nIntegrated Terminal\n (\nkb(workbench.action.terminal.toggleTerminal)\n with the backtick character) will open the integrated terminal and you can run \nnode app.js\n there:\n\n\n\n\nExpress.js\n\n\nExpress\n is a very popular application framework for building and running Node.js applications. You can scaffold (create) a new Express application using the Express Generator tool. The Express Generator is shipped as an NPM module and installed by using the NPM command line tool \nnpm\n. We use Express to create a local server run on your computer. This lets you view Active Workspace with your changes as you are working on it, before you put it in production.\n\n\n\n\nTip:\n To test that you've got \nnpm\n correctly installed on your computer, type \nnpm --help\n from a terminal and you should see the usage documentation.\n\n\n\n\nInstall the Express Generator by running the following from a terminal:\n\n\n1\nnpm install -g express-generator\n\n\n\n\n\n\nThe \n-g\n switch installs the Express Generator globally on your machine so you can run it from anywhere.\n\n\nJava 7 JDK 1.7.0_17\n\n\nWe need to download \nJava 7 JDK 1.7.0_17\n for the scripts to run.\n\n\n\n\nNow that we have that installed, we need to set our JAVA_HOME path, so the scripts know where it is.\n\n\n\n\nRight click My Computer and select Properties.\n\n\nOn the Advanced tab, select Environment Variables \n\n\nand then edit JAVA_HOME to point to where the JDK software is located, for example, C:\\Program Files\\Java\\1.7.0_17.\n\n\n\n\nIf you have any issues, Oracle has an article on \nInstalling the JDK Software and Setting JAVA_HOME\n\n\nSetting Up Source Code\n\n\nMake a Directory\n\n\nMake a new folder that will contain all of our code. I like having all of my projects in one folder on my root drive. For example \nC:\\dev\\MyProject\n. Place it at your liking. This can be done through the File Explorer or through the terminal. To make directories in command prompt:\n - Navigate to the directory to make a new folder.\n - \nmkdir newproject\n\n - \ncd newproject\n\n - \ncode .\n will open the project in VS Code \n\n\nActive Workspace Code\n\n\nNow we need the Active Workspace code inside of this project.\n\n\nGo to TC_ROOT/aws2/stage/src/out/war/assets\n/\n\n\nCopy the \nstage\n folder and paste into your New Project directory. I have found that due to the size of the folder, It helped to zip it up before copy and pasting. Then expand the zip in the folder. \n\n\nUpdate Proxy Server\n\n\nOpen the \nstage/build/express.js\n file in VS Code.\n\n\n\n\n\n\nChange the URLs to the TC Server. While we can run Active Workspace locally, we still need TeamCenter connected for all of the data.\n\n\nSet Up Express\n\n\ninside of the integrated terminal for your project we created earlier run the following commands:\n - \nrun\u00a0npm install express\n\n - \nnpm install http-proxy\n\n - \nnpm install\n\n\nYou may want to take a minute and grab a coffee. This will take a few minutes to install everything. This installs what we require for express to run.\n\n\nStart The Server\n\n\nOnce everything is completed, run \nexpress.cmd\n\n\n\n\nNow you have your own local Active Workspace deployment that you can play around with\u2026 To make changes on the fly utilize your custom modules and run \nwarRefresh.cmd\n from the terminal to see your changes automagically.", 
-            "title": "Environment Setup"
+            "title": "Environment Setup'"
         }, 
         {
-            "location": "/Environment-Setup/#environment-setup", 
+            "location": "/Environment-Setup/Environment-Setup/#environment-setup", 
             "text": "", 
             "title": "Environment Setup"
         }, 
         {
-            "location": "/Environment-Setup/#visual-studio-code", 
+            "location": "/Environment-Setup/Environment-Setup/#visual-studio-code", 
             "text": "To Start out, we need a place to write code and use the command line. Don't worry. Visual Studio Code will make this much easier. Download  Visual Studio Code .", 
             "title": "Visual Studio Code"
         }, 
         {
-            "location": "/Environment-Setup/#nodejs", 
+            "location": "/Environment-Setup/Environment-Setup/#nodejs", 
             "text": "Node.js  is a platform for building fast and scalable server applications using JavaScript. Node.js is the runtime and  NPM  is the Package Manager for Node.js modules.  Visual Studio Code has support for the JavaScript and TypeScript languages out-of-the-box as well as Node.js debugging. However, to run a Node.js application, you will need to install the Node.js runtime on your machine.  To get started in this walkthrough,  install Node.js for your platform . The Node Package Manager is included in the Node.js distribution. You'll need to open a new terminal (command prompt) for the  node  and  npm  command line tools to be on your PATH.   Linux : There are specific Node.js packages available for the various flavors of Linux. See  Installing Node.js via package manager  to find the Node.js package and installation instructions tailored to your version of Linux.  Tip:  To test that you've got Node.js correctly installed on your computer, open a new terminal and type  node --help  and you should see the usage documentation.", 
             "title": "Node.js"
         }, 
         {
-            "location": "/Environment-Setup/#nodejs-hello-world", 
+            "location": "/Environment-Setup/Environment-Setup/#nodejs-hello-world", 
             "text": "Every good tutorial starts off with a \"Hello World\" Example. Let's get started by creating the simplest Node.js application to get our feet wet with Visual Studio Code.  Create an empty folder called \"hello\", navigate into and open VS Code:  1\n2\n3 mkdir hello cd  hello\ncode .    Tip:  You can open files or folders directly from the command line.  The period '.' refers to the current folder, therefore VS Code will start and open the  Hello  folder.   From the File Explorer tool bar, press the New File button:   and name the file  app.js :   By using the  .js  file extension, VS Code interprets this file as JavaScript and will evaluate the contents with the JavaScript language service.  Create a simple string variable in  app.js  and send the contents of the string to the console:  1\n2 var   msg   =   Hello World ;  console . log ( msg );    Note that when you typed  console.  IntelliSense on the  console  object was automatically presented to you.   Also notice that VS Code knows that  msg  is a string based on the initialization to  'Hello World' .  If you type  msg.  you'll see IntelliSense showing all of the string functions available on  msg .   After experimenting with IntelliSense, revert any extra changes from the source code example above and save the file ( kb(workbench.action.files.save) ).", 
             "title": "Node.js Hello World"
         }, 
         {
-            "location": "/Environment-Setup/#running-hello-world", 
+            "location": "/Environment-Setup/Environment-Setup/#running-hello-world", 
             "text": "It's simple to run  app.js  with Node.js. From a terminal, just type:  1 node app.js   You should see \"Hello World\" output to the terminal and then Node.js returns.", 
             "title": "Running Hello World"
         }, 
         {
-            "location": "/Environment-Setup/#integrated-terminal", 
+            "location": "/Environment-Setup/Environment-Setup/#integrated-terminal", 
             "text": "VS Code has an  integrated terminal  which you can use to run shell commands. You can run Node.js directly from there and avoid switching out of VS Code while running command line tools.  View     Integrated Terminal  ( kb(workbench.action.terminal.toggleTerminal)  with the backtick character) will open the integrated terminal and you can run  node app.js  there:", 
             "title": "Integrated Terminal"
         }, 
         {
-            "location": "/Environment-Setup/#expressjs", 
+            "location": "/Environment-Setup/Environment-Setup/#expressjs", 
             "text": "Express  is a very popular application framework for building and running Node.js applications. You can scaffold (create) a new Express application using the Express Generator tool. The Express Generator is shipped as an NPM module and installed by using the NPM command line tool  npm . We use Express to create a local server run on your computer. This lets you view Active Workspace with your changes as you are working on it, before you put it in production.   Tip:  To test that you've got  npm  correctly installed on your computer, type  npm --help  from a terminal and you should see the usage documentation.   Install the Express Generator by running the following from a terminal:  1 npm install -g express-generator   The  -g  switch installs the Express Generator globally on your machine so you can run it from anywhere.", 
             "title": "Express.js"
         }, 
         {
-            "location": "/Environment-Setup/#java-7-jdk-170_17", 
+            "location": "/Environment-Setup/Environment-Setup/#java-7-jdk-170_17", 
             "text": "We need to download  Java 7 JDK 1.7.0_17  for the scripts to run.   Now that we have that installed, we need to set our JAVA_HOME path, so the scripts know where it is.   Right click My Computer and select Properties.  On the Advanced tab, select Environment Variables   and then edit JAVA_HOME to point to where the JDK software is located, for example, C:\\Program Files\\Java\\1.7.0_17.   If you have any issues, Oracle has an article on  Installing the JDK Software and Setting JAVA_HOME", 
             "title": "Java 7 JDK 1.7.0_17"
         }, 
         {
-            "location": "/Environment-Setup/#setting-up-source-code", 
+            "location": "/Environment-Setup/Environment-Setup/#setting-up-source-code", 
             "text": "", 
             "title": "Setting Up Source Code"
         }, 
         {
-            "location": "/Environment-Setup/#make-a-directory", 
+            "location": "/Environment-Setup/Environment-Setup/#make-a-directory", 
             "text": "Make a new folder that will contain all of our code. I like having all of my projects in one folder on my root drive. For example  C:\\dev\\MyProject . Place it at your liking. This can be done through the File Explorer or through the terminal. To make directories in command prompt:\n - Navigate to the directory to make a new folder.\n -  mkdir newproject \n -  cd newproject \n -  code .  will open the project in VS Code", 
             "title": "Make a Directory"
         }, 
         {
-            "location": "/Environment-Setup/#active-workspace-code", 
+            "location": "/Environment-Setup/Environment-Setup/#active-workspace-code", 
             "text": "Now we need the Active Workspace code inside of this project.  Go to TC_ROOT/aws2/stage/src/out/war/assets /  Copy the  stage  folder and paste into your New Project directory. I have found that due to the size of the folder, It helped to zip it up before copy and pasting. Then expand the zip in the folder.", 
             "title": "Active Workspace Code"
         }, 
         {
-            "location": "/Environment-Setup/#update-proxy-server", 
+            "location": "/Environment-Setup/Environment-Setup/#update-proxy-server", 
             "text": "Open the  stage/build/express.js  file in VS Code.    Change the URLs to the TC Server. While we can run Active Workspace locally, we still need TeamCenter connected for all of the data.", 
             "title": "Update Proxy Server"
         }, 
         {
-            "location": "/Environment-Setup/#set-up-express", 
+            "location": "/Environment-Setup/Environment-Setup/#set-up-express", 
             "text": "inside of the integrated terminal for your project we created earlier run the following commands:\n -  run\u00a0npm install express \n -  npm install http-proxy \n -  npm install  You may want to take a minute and grab a coffee. This will take a few minutes to install everything. This installs what we require for express to run.", 
             "title": "Set Up Express"
         }, 
         {
-            "location": "/Environment-Setup/#start-the-server", 
+            "location": "/Environment-Setup/Environment-Setup/#start-the-server", 
             "text": "Once everything is completed, run  express.cmd   Now you have your own local Active Workspace deployment that you can play around with\u2026 To make changes on the fly utilize your custom modules and run  warRefresh.cmd  from the terminal to see your changes automagically.", 
             "title": "Start The Server"
         }, 
         {
-            "location": "/My-First-Extension/", 
+            "location": "/My-First-Extension/My-First-Extension/", 
             "text": "Active Workspace is a Teamcenter Client that utilizes web technologies like node.js, angularjs and others to meet the needs of many engineering, manufacturing and other systems around the world.  With these technologies na modern web development we can extend the Active Workspace to automate tasks on the client or display data a certain way.\n\n\nTo get started with this walkthrough make sure your \nenvironment is setup\n, and if you were able to have \nexpress running\n.\n\n\nThere are a few ways to create an extension within Active Workspace.  For this tutorial however we will go over the generator that comes with the client and how to generate a tools and info panel.\n\n\nInitialize the environment with initenv.cmd, this is located directly inside the Stage directory\n\n\n1\n2\n3\n4\n5\n6\n7\n8\nmakeArray\n()\n \n{\n\n    \n// Hey hey what can I do\n\n    \nconst\n \nfoo\n \n=\n \n[]\n\n    \nbar\n.\nsplit\n(\n).\nforEach\n(\nletter\n \n=\n \n{\n\n      \nfoo\n.\npush\n(\nletter\n)\n\n    \n})\n\n    \nreturn\n \nfoo\n\n\n}", 
             "title": "My First Extension"
         }, 
         {
-            "location": "/Location-Example/", 
+            "location": "/Location-Example/Location-Example/", 
             "text": "Content Coming Soon", 
             "title": "Location Example"
         }, 
         {
-            "location": "/InboxLinkcmdGlobal/", 
+            "location": "/InboxLinkcmdGlobal/InboxLinkcmdGlobal/", 
             "text": "Content Coming Soon", 
             "title": "InboxLinkcmdGlobal"
         }, 
         {
-            "location": "/HomeFolderLinkcmdGlobal/", 
+            "location": "/HomeFolderLinkcmdGlobal/HomeFolderLinkcmdGlobal/", 
             "text": "Content Coming Soon", 
             "title": "HomeFolderLinkcmdGlobal"
         }, 
         {
-            "location": "/QuickLinksCmdPanel/", 
+            "location": "/QuickLinksCmdPanel/QuickLinksCmdPanel/", 
             "text": "Content Coming Soon", 
             "title": "QuickLinksCmdPanel"
         }, 
         {
-            "location": "/What-is-Declarative/", 
+            "location": "/What-is-Declarative/What-is-Declarative/", 
             "text": "Content Coming Soon", 
             "title": "What is Declarative"
         }
