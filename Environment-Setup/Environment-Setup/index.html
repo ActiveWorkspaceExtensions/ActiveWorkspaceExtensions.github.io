@@ -788,10 +788,14 @@
 <p><a href="https://nodejs.org/">Node.js</a> is a platform for building fast and scalable server applications using JavaScript. Node.js is the runtime and <a href="https://www.npmjs.com/">NPM</a> is the Package Manager for Node.js modules.</p>
 <p>Visual Studio Code has support for the JavaScript and TypeScript languages out-of-the-box as well as Node.js debugging. However, to run a Node.js application, you will need to install the Node.js runtime on your machine.</p>
 <p>To get started in this walkthrough, <a href="https://nodejs.org/en/download/">install Node.js for your platform</a>. The Node Package Manager is included in the Node.js distribution. You'll need to open a new terminal (command prompt) for the <code>node</code> and <code>npm</code> command line tools to be on your PATH.</p>
-<blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
 <p><strong>Linux</strong>: There are specific Node.js packages available for the various flavors of Linux. See <a href="https://nodejs.org/en/download/package-manager">Installing Node.js via package manager</a> to find the Node.js package and installation instructions tailored to your version of Linux.</p>
-<p><strong>Tip:</strong> To test that you've got Node.js correctly installed on your computer, open a new terminal and type <code>node --help</code> and you should see the usage documentation.</p>
-</blockquote>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>To test that you've got Node.js correctly installed on your computer, open a new terminal and type <code>node --help</code> and you should see the usage documentation.</p>
+</div>
 <h2 id="nodejs-hello-world">Node.js Hello World<a class="headerlink" href="#nodejs-hello-world" title="Permanent link">&para;</a></h2>
 <p>Every good tutorial starts off with a "Hello World" Example. Let's get started by creating the simplest Node.js application to get our feet wet with Visual Studio Code.</p>
 <p>Create an empty folder called "hello", navigate into and open VS Code:</p>
@@ -803,9 +807,10 @@ code .
 </pre></div>
 </td></tr></table>
 
-<blockquote>
-<p><strong>Tip:</strong> You can open files or folders directly from the command line.  The period '.' refers to the current folder, therefore VS Code will start and open the <code>Hello</code> folder.</p>
-</blockquote>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>You can open files or folders directly from the command line.  The period '.' refers to the current folder, therefore VS Code will start and open the <code>Hello</code> folder.</p>
+</div>
 <p>From the File Explorer tool bar, press the New File button:</p>
 <p><img alt="File Explorer New File" src="../toolbar-new-file.png" /></p>
 <p>and name the file <code>app.js</code>:</p>
@@ -836,9 +841,10 @@ code .
 <p><img alt="integrated terminal" src="../integrated-terminal.png" /></p>
 <h2 id="expressjs">Express.js<a class="headerlink" href="#expressjs" title="Permanent link">&para;</a></h2>
 <p><a href="https://expressjs.com/">Express</a> is a very popular application framework for building and running Node.js applications. You can scaffold (create) a new Express application using the Express Generator tool. The Express Generator is shipped as an NPM module and installed by using the NPM command line tool <code>npm</code>. We use Express to create a local server run on your computer. This lets you view Active Workspace with your changes as you are working on it, before you put it in production.</p>
-<blockquote>
-<p><strong>Tip:</strong> To test that you've got <code>npm</code> correctly installed on your computer, type <code>npm --help</code> from a terminal and you should see the usage documentation.</p>
-</blockquote>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>To test that you've got <code>npm</code> correctly installed on your computer, type <code>npm --help</code> from a terminal and you should see the usage documentation.</p>
+</div>
 <p>Install the Express Generator by running the following from a terminal:</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>npm install -g express-generator
 </pre></div>
@@ -852,7 +858,7 @@ code .
 <ul>
 <li>Right click My Computer and select Properties.</li>
 <li>On the Advanced tab, select Environment Variables <img alt="Environment shot 1" src="../env_1.png" /></li>
-<li>and then edit JAVA_HOME to point to where the JDK software is located, for example, C:\Program Files\Java\1.7.0_17.<img alt="Environment shot 1" src="../env_2.png" /></li>
+<li>Then edit JAVA_HOME to point to where the JDK software is located, for example, C:\Program Files\Java\1.7.0_17.<img alt="Environment shot 1" src="../env_2.png" /></li>
 </ul>
 <p>If you have any issues, Oracle has an article on <a href="https://docs.oracle.com/cd/E19182-01/821-0917/inst_jdk_javahome_t/index.html">Installing the JDK Software and Setting JAVA_HOME</a></p>
 <h2 id="setting-up-source-code">Setting Up Source Code<a class="headerlink" href="#setting-up-source-code" title="Permanent link">&para;</a></h2>
