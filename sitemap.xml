@@ -1,48 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+    <url>
+     <loc>https://activeworkspaceextensions.github.io//</loc>
+     <lastmod>2018-06-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>https://activeworkspaceextensions.github.io//Getting-Started/Environment-Setup/Environment-Setup/</loc>
+     <lastmod>2018-06-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://activeworkspaceextensions.github.io//Getting-Started/My-First-Extension/My-First-Extension/</loc>
+     <lastmod>2018-06-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://activeworkspaceextensions.github.io//Documentation/What-is-Declarative/What-is-Declarative/</loc>
+     <lastmod>2018-06-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     <url>
      <loc>https://activeworkspaceextensions.github.io/</loc>
-     <lastmod>2018-06-27</lastmod>
+     <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    
+
+    
+        
     <url>
-     <loc>https://activeworkspaceextensions.github.io/Getting-Started/Environment-Setup/Environment-Setup/</loc>
+     <loc>https://activeworkspaceextensions.github.io//Extensions/HomeFolderLinkcmdGlobal/HomeFolderLinkcmdGlobal/</loc>
      <lastmod>2018-06-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>https://activeworkspaceextensions.github.io/Getting-Started/My-First-Extension/My-First-Extension/</loc>
+     <loc>https://activeworkspaceextensions.github.io//Extensions/InboxLinkcmdGlobal/InboxLinkcmdGlobal/</loc>
      <lastmod>2018-06-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>https://activeworkspaceextensions.github.io/Documentation/What-is-Declarative/What-is-Declarative/</loc>
+     <loc>https://activeworkspaceextensions.github.io//Extensions/at4Create/at4Create/</loc>
      <lastmod>2018-06-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    <url>
-     <loc>https://activeworkspaceextensions.github.io/Documentation/Examples/Location-Example/Location-Example/</loc>
-     <lastmod>2018-06-27</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://activeworkspaceextensions.github.io/Extensions/HomeFolderLinkcmdGlobal/HomeFolderLinkcmdGlobal/</loc>
-     <lastmod>2018-06-27</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://activeworkspaceextensions.github.io/Extensions/InboxLinkcmdGlobal/InboxLinkcmdGlobal/</loc>
-     <lastmod>2018-06-27</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://activeworkspaceextensions.github.io/Extensions/QuickLinksCmdPanel/QuickLinksCmdPanel/</loc>
-     <lastmod>2018-06-27</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://activeworkspaceextensions.github.io/Extensions/at4Create/at4Create/</loc>
-     <lastmod>2018-06-27</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
+        
+    
+
 </urlset>
